@@ -21,7 +21,7 @@ Master'la aramızdaki farkların update'ini almak için.
 5. Bir Branchten diğerine geçmek için kullandığın KOMUT nedir? Mesela `isim-soyisim` branch'inde çalıştığını hayal et ve main branch'ine geçmek istiyorsun, ne yaparsın?
 git checkout main
 6. `git fetch`, `git merge` ve `git pull` arasındaki farklıarı açıklayınız. Bu konutlar ne yapar açıklayınız.
-git pull, masterla aramızdaki farkları gösterir. git merge master'la ya da başka bir branchle localdeki değişiklikleri birleştirmeye yarar. git fetch ile pull arasındaki farkı tam anlayamadım. 
+git fetch, tüm commitleri alırız. git merge master'la ya da başka bir branchle localdeki değişiklikleri birleştirmeye yarar. fetch ve merge'ü beraber yapan komut.
 7. Merge conflict nedir?
 Local'deki değişiklikle birleştirmeye calıştığımız branchteki değişikliklerin çakışması durumudur. 10. satırda birinde a birinde b yazıyorsa bu bir conflicttir.
 8. Merge conflict'i nasıl çözeriz?
